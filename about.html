@@ -8,6 +8,9 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
+  <!-- animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -44,18 +47,19 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Moderna</h1>
+        <img src="./assets/img/logo/Logo 2.PNG" alt="logo_shaker" style="min-height: 60px;"
+        class="png animate__animated animate__shakeX">
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="about.html" class="active">L'azienda</a></li>
+          <li><a href="services.html">Servizi</a></li>
+          <li><a href="portfolio.html">Prodotto</a></li>
+          <li><a href="team.html">Lavora con noi</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -71,8 +75,8 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+          </li> -->
+          <li><a href="contact.html">Contatti</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -85,12 +89,12 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>About</h1>
+        <h1>L'azienda</h1>
         <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">About</li>
+            <li class="current">L'azienda</li>
           </ol>
         </nav>
       </div>
@@ -107,20 +111,29 @@
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Un Team dinamico di Consulenti sistemisti e developer al servizio delle
+              imprese.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              Youshaker nasce nel 2011 dallo spirito imprenditoriale di professionisti
+              della consulenza aziendale ed esperti in ambito sap. I soci sono tutti
+              impegnati come consulenti a supporto dei CIO di importanti realtà
+              imprenditoriali. I professionisti youshaker, oltre a possedere competenze
+              tecniche costantemente aggiornate, manifestano capacità di ascolto,
+              flessibilità ed empatia, importanti per entrare rapidamente in sintonia con i
+              clienti
               magna aliqua.
             </p>
             <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><strong>Consulenza su misura </strong>– Offriamo soluzioni
+                  personalizzate per ottimizzare i processi aziendali, supportando le aziende nell’adozione e
+                  nell’integrazione di tecnologie SAP avanzate.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><strong>Team di esperti</strong> – Il nostro team è composto da
+                  professionisti con esperienza consolidata nel settore, in grado di fornire un supporto strategico e
+                  operativo ai CIO di grandi imprese.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span><strong>Approccio innovativo</strong> – Uniamo competenze
+                  tecniche all’ascolto attivo e alla flessibilità, garantendo ai nostri clienti soluzioni efficaci e un
+                  servizio altamente professionale.</span></li>
             </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p>
           </div>
         </div>
 
@@ -209,14 +222,13 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/nextChain.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/sap.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/Grasselli.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/profili.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/V-mar.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/Arpa.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/logo/angelini.jpg" class="img-fluid" alt=""></div>
           </div>
         </div>
 
@@ -240,21 +252,21 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <span class="skill"><span>SAP S/4 HANA</span> <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <span class="skill"><span>MEI-MII</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <span class="skill"><span>DMC</span> <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -265,25 +277,26 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+              <span class="skill"><span>Attività sistemistiche</span> <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+              <span class="skill"><span>Business Analytics</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
 
-            <div class="progress">
+            <!-- <div class="progress">
               <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div><!-- End Skills Item -->
+            </div> -->
+            <!-- End Skills Item -->
 
           </div>
 
@@ -294,7 +307,7 @@
     </section><!-- /Skills Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <section id="testimonials" class="testimonials section" style="display: none;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -414,7 +427,7 @@
 
   <footer id="footer" class="footer dark-background">
 
-    <div class="footer-newsletter">
+    <div class="footer-newsletter" style="display: none;">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-6">
@@ -451,17 +464,19 @@
             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li> -->
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">ME-MII</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">DMC</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Attività sistemistiche</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Business Analytics</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">SAP S/4 Hana</a></li>
+
           </ul>
         </div>
 
